@@ -6,17 +6,17 @@ namespace Lesson7
     {
         static void Main(string[] args)
         {
-            int Maths;
-            int Chemistry;
-            int Physics;
+            int maths;
+            int chemistry;
+            int physics;
             Console.WriteLine("Wpisz wynik matury z matematyki:");
-            int.TryParse(Console.ReadLine(),out Maths);
+            int.TryParse(Console.ReadLine(),out maths);
             Console.WriteLine("Wpisz wynik matury z fizyki:");
-            int.TryParse(Console.ReadLine(), out Physics);
+            int.TryParse(Console.ReadLine(), out physics);
             Console.WriteLine("Wpisz wynik matury z chemii:");
-            int.TryParse(Console.ReadLine(), out Chemistry);
+            int.TryParse(Console.ReadLine(), out chemistry);
         
-            if((Maths > 70 && Physics > 55 && Chemistry > 45 && Maths + Physics + Chemistry > 180) || (Maths + Physics > 150) || (Maths + Chemistry > 150))
+            if((maths > 70 && physics > 55 && chemistry > 45 && maths + physics + chemistry > 180) || (maths + physics > 150) || (maths + chemistry > 150))
             {
                 Console.WriteLine("Kandydat dopuszczony do rekrutacji.");
             }
