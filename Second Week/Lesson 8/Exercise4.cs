@@ -2,7 +2,7 @@ using System;
 
 namespace Lesson8
 {
-    class Exercise
+    class Exercise4
     {
         static void Main(string[] args)
         {
