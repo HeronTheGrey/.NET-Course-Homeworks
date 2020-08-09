@@ -29,5 +29,4 @@ namespace Lesson7
             Niedziela = 7
         }
     }
-    }
 }
